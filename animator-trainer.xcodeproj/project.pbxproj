@@ -12,6 +12,8 @@
 		EC32FA9C217FA22300C7A915 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC32FA9A217FA22300C7A915 /* Main.storyboard */; };
 		EC32FA9E217FA22400C7A915 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC32FA9D217FA22400C7A915 /* Assets.xcassets */; };
 		EC32FAA1217FA22400C7A915 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC32FA9F217FA22400C7A915 /* LaunchScreen.storyboard */; };
+		EC32FAA9217FC01F00C7A915 /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC32FAA8217FC01F00C7A915 /* OtherViewController.swift */; };
+		EC9A0E9721801E5100A73B6C /* PlayPauseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9A0E9621801E5100A73B6C /* PlayPauseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		EC32FA9D217FA22400C7A915 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC32FAA0217FA22400C7A915 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC32FAA2217FA22400C7A915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC32FAA8217FC01F00C7A915 /* OtherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
+		EC9A0E9621801E5100A73B6C /* PlayPauseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayPauseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				EC32FA96217FA22300C7A915 /* AppDelegate.swift */,
 				EC32FA98217FA22300C7A915 /* ViewController.swift */,
+				EC32FAA8217FC01F00C7A915 /* OtherViewController.swift */,
+				EC9A0E9621801E5100A73B6C /* PlayPauseViewController.swift */,
 				EC32FA9A217FA22300C7A915 /* Main.storyboard */,
 				EC32FA9D217FA22400C7A915 /* Assets.xcassets */,
 				EC32FA9F217FA22400C7A915 /* LaunchScreen.storyboard */,
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC32FA99217FA22300C7A915 /* ViewController.swift in Sources */,
+				EC32FAA9217FC01F00C7A915 /* OtherViewController.swift in Sources */,
 				EC32FA97217FA22300C7A915 /* AppDelegate.swift in Sources */,
+				EC9A0E9721801E5100A73B6C /* PlayPauseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
